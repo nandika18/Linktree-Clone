@@ -1,0 +1,48 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     background: linear-gradient(0deg, rgb(240, 200, 220), rgb(229, 211, 240));
+    min-height: 110vh; 
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(205, 12, 231);
+}
+.image{
+width: 300px;
+				height: 500px;
+				border-radius: 50%;
+}
+section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.inner-link {
+    background:linear-gradient(#7f6cb3,#cc73aa);
+    padding: 20px;
+    transition: 0.1s ease-in;
+    border: 2px solid rgb(250, 247, 247);
+}
+.inner-link:hover {
+    border: 2px solid #f3870b;
+    background-color: rgb(255, 228, 228) ;
+}
+.sub-head {
+    font-size: 15px;
+}
+.links-section {
+    margin-top: 30px;
+}
+.sub-sec {
+    margin: 15px 0px;
+}
+@media screen and (max-width: 720px) {
+    section {
+        width: 100%;
+    }
+}
